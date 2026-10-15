@@ -43,6 +43,7 @@ Pedido ──usa──▶ EstrategiaFrete
 | `frete_drone.py` | `FreteDrone`, criado **sem tocar** no `Pedido` |
 | `pedido.py` | Contexto: guarda a estratégia e delega o cálculo |
 | `teste-frete.py` | Cliente que injeta a estratégia e imprime os valores |
+| `test_estrategias.py` | Testes automatizados (`unittest`) que conferem cada valor de frete |
 
 ## 💸 Regras de frete
 
@@ -60,6 +61,12 @@ Precisa de Python 3.10 ou superior.
 
 ```bash
 python teste-frete.py
+```
+
+Para rodar os testes automatizados:
+
+```bash
+python -m unittest -v
 ```
 
 ## 💡 Como usar no seu código
