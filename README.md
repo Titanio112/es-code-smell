@@ -3,7 +3,9 @@
 Refatoração de um *code smell* em Python: a cadeia de `if/elif` do cálculo de frete deu lugar ao **padrão Strategy**, seguindo o **Princípio Aberto/Fechado (OCP)**.
 
 > Atividade de sala de aula invertida de **Engenharia de Software**
+>
 > Bacharelado em Sistemas de Informação, CEFET-MG (4º período)
+>
 > Feito por **Antônio** ([@Titanio112](https://github.com/Titanio112))
 
 ---
